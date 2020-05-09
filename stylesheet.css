@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://www.csa.iisc.ernet.in/~vg/fonts/cmunrm.otf');
+}
+
+@font-face {
+  font-family: "Computer Modern";
+	font-weight: bold;
+  src: url('http://www.csa.iisc.ernet.in/~vg/fonts/cmunbx.otf');
+}
+
+@font-face {
+  font-family: "Computer Modern";
+	font-style: italic;
+  src: url('http://www.csa.iisc.ernet.in/~vg/fonts/cmunci.otf');
+}
+
+@font-face {
+  font-family: "Computer Modern";
+	font-style: oblique;
+  src: url('http://www.csa.iisc.ernet.in/~vg/fonts/cmunci.otf');
+}
+
+@font-face {
+  font-family: "Computer Modern";
+	font-weight: bold;
+	font-style: italic;
+  src: url('http://www.csa.iisc.ernet.in/~vg/fonts/cmunbi.otf');
+}
+
+@font-face {
+  font-family: "Computer Modern";
+	font-weight: bold;
+	font-style: oblique;
+  src: url('http://www.csa.iisc.ernet.in/~vg/fonts/cmunbi.otf');
+}
+
+body {
+  color: black;
+  background-color: white;
+  font-family: "Computer Modern", "Times", "Helvetica", "Arial", "Georgia";
+}
+
+h1 {
+   color: #333333;
+}
+
+h2 {
+  color: #0000a0;
+}
+
+h3 {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: #4f4a46;
+}
+
+a.nodec:link{
+	color: black;
+	text-decoration: none;
+}
+
+a.nodec:link:hover{
+	color: black;
+	background-color: #ffffcc;
+	text-decoration: none;
+}
+
+a.nodec:visited{
+	color: black;
+	text-decoration: none;
+}
+
+a.nodec:visited:hover{
+	color: black;
+	background-color: #ffffcc;
+	text-decoration: none;
+}
+
+.pubname {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+.pubabbrv {
+  font-family: "Computer Modern", "Times", "Helvetica", "Arial", "Georgia";
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.author {
+}
+
+.blacktext {
+  color: black;
+  font-weight: bold;
+}
+
+
+.blacklargetext {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+}
+
+.abs {
+  color: black;
+  background-color: #eeeeee;
+  font-weight: bold;
+}
+
+.epub {
+  color: #80421d;
+  background-color: #ffeebb;
+  font-weight: bold;
+}
+
+.ps {
+  color: #80421d;
+  background-color: #ffeebb;
+  font-weight: bold;
+}
+
+.pdf {
+  color: #dc143c;
+  background-color:  #ffeeee;
+  font-weight: bold;
+}
+
+.txt {
+  color: #0000a0;
+  background-color:  #eeeeff;
+  font-weight: bold;
+}
+
+.youtube {
+  color: #0000a0;
+  background-color:  #eeeeff;
+  font-weight: bold;
+}
+
+.bib {
+  color: #0000cd;
+  font-weight: bold;
+}
+
+.ppt {
+  color: #ff3300;
+  background-color: #fffea6;
+  font-weight: bold;
+}
+
+.html {
+  color: #25a2fa;
+  background-color: #fff8fc;
+  font-weight: bold;
+}
+
+.official {
+  color: #009900;
+  background-color: #eeffee;
+  font-weight: bold;
+}
+
+.highlight {
+  color: black;
+  background-color:  yellow;
+  font-weight: bold;
+}
+
+td.bibtexnumber {
+  text-align: left;
+	width: 10%;
+  background-color: #fafafa;
+  background-color: #f8ffff;
+  border-bottom: dashed 1px black;
+}
+
+td.bibtexspacer {
+  text-align: center;
+	color: white;
+}
+
+td.bibtexitem {
+  text-align: left;
+	width: 1024px;
+  background-color: white;
+}
+
+td.columnone {
+  text-align: left;
+  background-color: #fafafa;
+  border-top: dashed 1px black;
+}
+
+td.columntwo {
+  text-align: left;
+  background-color: white;
+  border-top: dashed 1px black;
+}
